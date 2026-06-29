@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # MathOCR
 
@@ -24,12 +24,15 @@
 
 **MathOCR** 是一款专业的数学公式识别与编辑工具，基于 Electron + React + Python 全栈架构开发。软件采用 pix2tex 深度学习模型，能够通过全局快捷键截取屏幕任意区域内的数学公式图像，自动识别并转换为 LaTeX 代码。同时内置 KaTeX 实时公式预览引擎和 MathML 格式输出功能，支持复制到 Word、WPS 等文档软件显示为可编辑公式对象。全程离线运行，无需网络连接，保护用户数据隐私安全。
 
+![MathOCR_operation_demo](https://raw.githubusercontent.com/Yu-Zhuohang/MathOCR/main/images/MathOCR_operation_demo.gif)
+
 > **为什么选择 MathOCR？**
 > - 截图识别 — 快捷键激活，框选即出结果
 > - 完全离线 — 无需联网，所有推理均在本地完成，数据不外传
 > - 支持MathML格式粘贴 — 复制至 Word 即显示为可编辑公式
 > - 高准确率 — 基于 pix2tex 深度学习模型，识别正确率高
 > - 代码开源免费 — 遵循 MIT 开源协议，可供二次开发
+
 
 ## 核心功能
 
