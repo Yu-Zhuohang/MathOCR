@@ -1,0 +1,29 @@
+appId: com.formula-recognizer.app
+productName: Formula Recognizer
+copyright: "2026"
+
+directories:
+  output: dist-app
+  buildResources: build
+
+files:
+  - dist/**/*
+  - package.json
+
+extraResources:
+  - from: engine
+    to: engine
+    filter:
+      - server.py
+      - recognizer.py
+      - requirements.txt
+      - setup.bat
+
+win:
+  target:
+    - target: dir
+      arch: [x64]
+
+buildDependenciesFromSource: false
+npmRebuild: false
+nodeGypRebuild: false
