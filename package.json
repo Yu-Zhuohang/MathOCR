@@ -1,0 +1,30 @@
+{
+  "name": "formula-recognizer",
+  "version": "0.1.0",
+  "description": "Desktop formula recognition - screenshot to LaTeX",
+  "main": "dist/electron/main.js",
+  "scripts": {
+    "dev:electron": "npm run build && electron .",
+    "dev:engine": "python engine/server.py",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.electron.json && node -e \"require(\"fs\").copyFileSync(\"src/index.html\",\"dist/renderer/index.html\");require(\"fs\").copyFileSync(\"src/style.css\",\"dist/renderer/style.css\");require(\"fs\").copyFileSync(\"electron/overlay.html\",\"dist/electron/overlay.html\")\"",
+    "start": "npm run build && electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "electron-log": "^4.4.1",
+    "electron-store": "^8.2.0",
+    "katex": "^0.16.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "conf": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "electron": "^33.4.11",
+    "electron-builder": "^25.1.8",
+    "typescript": "^6.0.3"
+  }
+}
