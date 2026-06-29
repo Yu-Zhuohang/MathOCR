@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+dist-app/
+build/
+*.exe
+*.dll
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Temp
+_soft_source/
+_soft_source_recreated/
+temp/
+tmp/
+
+# Installer output
+installer-output/
