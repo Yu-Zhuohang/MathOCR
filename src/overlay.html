@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><style>
+*{margin:0;padding:0;box-sizing:border-box;cursor:crosshair}
+body{width:100vw;height:100vh;overflow:hidden}
+canvas{display:block;width:100vw;height:100vh}
+</style></head>
+<body><canvas id="c"></canvas>
+<script>
+const c=document.getElementById('c'),ctx=c.getContext('2d');
+const dpr=window.devicePixelRatio||1;
+c.width=window.innerWidth*dpr;c.height=window.innerHeight*dpr;
+ctx.scale(dpr,dpr);
+let sx,sy,ex,ey,drawing=false;
+let cancelled=false;
+function cancelSelection(){cancelled=true;window.__r__=null;window.close()}
+document.addEventListener('contextmenu',e=>e.preventDefault());
+c.addEventListener('mousedown',e=>{cancelled=false;if(e.button===2)return cancelSelection();sx=e.clientX;sy=e.clientY;drawing=true});
+c.addEventListener('mousemove',e=>{if(!drawing)return;ex=e.clientX;ey=e.clientY;draw()});
+c.addEventListener('mouseup',e=>{
+  if(cancelled)return;
+  ex=e.clientX;ey=e.clientY;drawing=false;
+  const rx=Math.min(sx,ex),ry=Math.min(sy,ey);
+  const rw=Math.abs(ex-sx),rh=Math.abs(ey-sy);
+  if(rw>10&&rh>10){
+    window.__r__={x:Math.round(rx*dpr),y:Math.round(ry*dpr),width:Math.round(rw*dpr),height:Math.round(rh*dpr)}
+  }
+  draw()
+});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')cancelSelection()});
+function draw(){
+  ctx.clearRect(0,0,c.width/dpr,c.height/dpr);
+  ctx.fillStyle='rgba(0,0,0,0.5)';ctx.fillRect(0,0,c.width/dpr,c.height/dpr);
+  if(!sx||!ex)return;
+  const x=Math.min(sx,ex),y=Math.min(sy,ey),w=Math.abs(ex-sx),h=Math.abs(ey-sy);
+  ctx.clearRect(x,y,w,h)
+}
+</script>
+</body></html>
