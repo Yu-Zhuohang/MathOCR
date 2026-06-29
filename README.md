@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/github/stars/Yu-Zhuohang/MathOCR?style=flat-square" alt="Stars"/>
   <img src="https://img.shields.io/github/release/Yu-Zhuohang/MathOCR?style=flat-square" alt="Release"/>
 </p>
-[功能](#核心功能) • [安装](#安装) • [使用](#使用指南)  • [技术栈](#技术栈) • [项目结构](#项目结构) • [常见问题](#常见问题) • [开源许可](#许可证)
+<a href="#核心功能">功能</a> • <a href="#安装">安装</a> • <a href="#使用指南">使用</a>  • <a href="#技术栈">技术栈</a> • <a href="#项目结构">项目结构</a> • <a href="#常见问题">常见问题</a> • <a href="#许可证">开源许可</a>
 
 </div>
 
