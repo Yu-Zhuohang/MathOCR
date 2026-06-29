@@ -75,21 +75,21 @@ npm start
 
 1. 鍚姩杞欢鍚庯紝绛夊緟搴曢儴寮曟搸鍔犺浇瀹屾垚锛堥娆＄害30-60绉掞級
 
-![image-20260629205617654](D:\妗岄潰\Codex\Workspace\formula-recognizer\images\image-20260629203725097.png)
+![image-20260629205617654](https://raw.githubusercontent.com/Yu-Zhuohang/MathOCR/main/images/image-20260629203725097.png)
 
 2. 鎸変笅蹇嵎閿?**Ctrl+Shift+Alt+F** 鎴栬彍鍗曟寜閽?**Screenshot** 婵€娲绘埅鍥炬ā寮?
-![image-20260629203318550](D:\妗岄潰\Codex\Workspace\formula-recognizer\images\image-20260629203318550.png)
+![image-20260629203318550](https://raw.githubusercontent.com/Yu-Zhuohang/MathOCR/main/images/image-20260629203318550.png)
 
 3. 榧犳爣鎷栨嫿閫夋嫨鍏紡鍖哄煙
 
-![image-20260629203442838](D:\妗岄潰\Codex\Workspace\formula-recognizer\images\image-20260629203442838.png)
+![image-20260629203442838](https://raw.githubusercontent.com/Yu-Zhuohang/MathOCR/main/images/image-20260629203442838.png)
 
 4. 閲婃斁榧犳爣锛岃瘑鍒粨鏋滆嚜鍔ㄦ樉绀?
-![image-20260629203420937](D:\妗岄潰\Codex\Workspace\formula-recognizer\images\image-20260629203420937.png)
+![image-20260629203420937](https://raw.githubusercontent.com/Yu-Zhuohang/MathOCR/main/images/image-20260629203420937.png)
 
 5. 鐐瑰嚮 Copy LaTeX 鎴?Copy MathML (Word) 澶嶅埗鍏紡
 
-![image-20260629204303653](D:\妗岄潰\Codex\Workspace\formula-recognizer\images\image-20260629204303653.png)
+![image-20260629204303653](https://raw.githubusercontent.com/Yu-Zhuohang/MathOCR/main/images/image-20260629204303653.png)
 
 ### 鎴浘璇嗗埆
 
@@ -98,18 +98,18 @@ npm start
 3. 鑷姩璇嗗埆锛氭澗寮€鍚庤皟鐢ㄥ紩鎿庤瘑鍒?4. 澶嶅埗缁撴灉锛氱偣鍑诲簳閮ㄥ鍒舵寜閽?
 ### LaTeX 缂栬緫鍣?
 鍦?LaTeX Editor 椤甸潰涓紝宸︿晶涓轰唬鐮佽緭鍏ュ尯锛屽彸渚т负瀹炴椂棰勮鍖猴紝鏀寔鎵嬪姩缂栬緫鍜屼慨鏀瑰叕寮忋€?
-![image-20260629203821340](D:\妗岄潰\Codex\Workspace\formula-recognizer\images\image-20260629203821340.png)
+![image-20260629203821340](https://raw.githubusercontent.com/Yu-Zhuohang/MathOCR/main/images/image-20260629203821340.png)
 
-![image-20260629203802416](D:\妗岄潰\Codex\Workspace\formula-recognizer\images\image-20260629203802416.png)
+![image-20260629203802416](https://raw.githubusercontent.com/Yu-Zhuohang/MathOCR/main/images/image-20260629203802416.png)
 
 ### 澶嶅埗鍒?Word
 
 鐐瑰嚮 **Copy MathML (Word)** 鎸夐挳锛岀劧鍚庡湪 Word 涓寜 Ctrl+V 鐩存帴绮樿创锛屽叕寮忓皢鏄剧ず涓哄彲缂栬緫鐨勬爣鍑嗗叕寮忓璞°€?
-![image-20260629203834097](D:\妗岄潰\Codex\Workspace\formula-recognizer\images\image-20260629203834097.png)
+![image-20260629203834097](https://raw.githubusercontent.com/Yu-Zhuohang/MathOCR/main/images/image-20260629203834097.png)
 
 ### 鍘嗗彶璁板綍
 鎵€鏈夎瘑鍒垚鍔熺殑鍏紡浼氳嚜鍔ㄤ繚瀛樺埌杞欢鐨勬湰鍦板巻鍙茶褰曟暟鎹簱涓€傚湪"鍘嗗彶璁板綍"椤甸潰涓紝宸︿晶浠ュ垪琛ㄥ舰寮忓睍绀烘墍鏈夊巻鍙茶褰曟潯鐩紝姣忛」鏄剧ず鍏紡鐨?LaTeX 鐗囨鍜岃瘑鍒椂闂淬€傜偣鍑讳换鎰忓巻鍙茶褰曟潯鐩紝鍙充晶浼氬睍绀哄畬鏁寸殑 LaTeX 浠ｇ爜鍜屽搴旂殑 KaTeX 鍏紡棰勮鏁堟灉锛屽悓鏃舵彁渚?Copy LaTeX"鍜?Copy MathML (Word)"鎸夐挳锛屾柟渚块殢鏃跺鐢ㄣ€?
-![image-20260629204019996](D:\妗岄潰\Codex\Workspace\formula-recognizer\images\image-20260629204019996.png)
+![image-20260629204019996](https://raw.githubusercontent.com/Yu-Zhuohang/MathOCR/main/images/image-20260629204019996.png)
 
 ## 蹇嵎鎿嶄綔
 
@@ -170,4 +170,5 @@ MathOCR/
 娆㈣繋鎻愪氦 Issue 鍜?Pull Request锛佽纭繚浠ｇ爜椋庢牸涓€鑷村苟娣诲姞鐩稿簲鐨勬祴璇曘€?
 ## 璁稿彲璇?
 [MIT License](/LICENSE) (c) 2026 Yu Zhuohang
+
 
