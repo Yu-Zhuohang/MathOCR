@@ -176,5 +176,3 @@ MathOCR/
 ## 许可证
 
 [MIT License](/LICENSE) (c) 2026 Yu Zhuohang
-
-*** End of File
